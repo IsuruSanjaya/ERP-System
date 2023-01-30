@@ -1,0 +1,63 @@
+.WrapperContainer {
+    position: absolute;
+    left: 48%;
+    top: 50%;
+    height: 200;
+    margin-top: -20%; 
+    width: 400px;
+    margin-left: -200px; 
+}
+
+body{
+    background-image: url("../../Assets/backgroundII.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    /*background-image: linear-gradient(to left, grey ,#002141);*/
+}
+
+h1{
+    color: white;
+}
+/*
+.card{
+    padding: 50px;
+    background-color: white;
+    border-radius: 5px;
+    height: 400px;
+    opacity: 0.4;
+}
+
+.card label,input{
+    opacity: 1.0;
+}
+*/
+.card {
+    padding: 50px;
+    background-color: white;
+    border-radius: 5px;
+    width: 30rem;
+    height: 20rem; 
+    border-radius: 5px;
+    position: relative;
+    
+    background: inherit;
+    overflow: hidden;
+    
+  }
+  
+  .card:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(49, 78, 104, 1.0);
+    margin: -20px;
+    overflow: hidden;
+    
+  }
+
+
